@@ -60,7 +60,7 @@ trait Translatable
         $configFallbackLocale = $this->getFallbackLocale($locale);
         $locale = $locale ?: $this->locale();
         $withFallback = $withFallback === null ? $this->useFallback() : $withFallback;
-        $fallbackLocale = $this->getFallbackLocale($locale);
+        $fallbackLocale = $this->getFallbackLocale();
 
         if ($translation = $this->getTranslationByLocaleKey($locale)) {
             return $translation;
