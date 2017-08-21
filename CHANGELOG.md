@@ -1,5 +1,10 @@
 ## Version History
 
+### v.5.7
+
+- Added default locale per model.
+- Fix issue when trying to fetch a translation with a country based locale
+
 ### v.5.6
 
 - Added scope notTranslatedIn() [#235](https://github.com/dimsav/laravel-translatable/pull/235)
